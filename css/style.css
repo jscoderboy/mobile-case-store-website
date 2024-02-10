@@ -115,7 +115,33 @@ h4 {
   overflow: hidden;
 }
 .product-grid .title a:hover {
-  color: #b71540;
+  color: #28a745;
+}
+
+/* Footer */
+#footer {
+  color: #fff;
+  margin-top: 40px;
+}
+#footer .footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 5px;
+}
+.footer-content .footer-nav ul {
+  display: flex;
+  gap: 40px;
+}
+.footer-content .footer-nav ul li {
+  list-style: none;
+}
+.footer-content .footer-nav ul li .nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-content .footer-nav ul li a:hover {
+  color: #28a745;
 }
 
 @media screen and (max-width: 990px) {
@@ -129,5 +155,19 @@ h4 {
   h1 {
     font-size: 60px;
     text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  footer {
+    margin-top: 20px;
+  }
+  footer .footer-content {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer-content p,
+  li a {
+    font-size: 16px;
   }
 }
