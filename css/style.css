@@ -30,8 +30,14 @@ h4 {
   background-color: #f4f5ff;
 }
 .navbar-brand img {
-  width: 70px;
-  height: 70px;
+  width: 65px;
+  height: 60px;
+}
+.navbar .nav-item .nav-link {
+  font-size: 1.3rem;
+}
+.navbar .nav-item .nav-link:hover {
+  color: #28a745;
 }
 /* custom card */
 
