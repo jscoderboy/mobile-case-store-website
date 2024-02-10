@@ -15,6 +15,11 @@ h1 {
   font-weight: 700;
   color: #363958;
 }
+h1 span {
+  background: linear-gradient(90deg, #00dbde, #fc00ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .secondary-heading {
   padding: 0 12px;
 }
@@ -205,7 +210,6 @@ h4 {
   }
   h1 {
     font-size: 50px;
-    /* text-align: center; */
   }
 }
 @media (min-width: 768px) {
