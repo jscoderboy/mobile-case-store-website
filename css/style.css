@@ -118,6 +118,52 @@ h4 {
   color: #28a745;
 }
 
+/* Terms and conditions */
+.terms-c {
+  padding: 40px 0;
+  /* margin: 40px 0; */
+  margin-top: 100px;
+  background-color: #f4f4f4;
+}
+.terms-c .secondary-heading {
+  background-color: #373636;
+}
+.terms-c .sub-heading {
+  padding: 20px 0 40px 0;
+  text-decoration: underline;
+}
+.terms-c article {
+  padding: 10px 0;
+}
+.terms-c article h3 {
+  padding: 15px 0;
+}
+.terms-box {
+  max-width: 100%;
+  background-color: #444343;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  padding: 60px 30px;
+}
+.terms-text {
+  padding: 0 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #f1f1f1;
+}
+.terms-text h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.terms-text h3 {
+  font-size: 24px;
+}
+.terms-text h4 {
+  font-size: 13px;
+  text-align: center;
+  padding: 0 40px;
+}
+
 /* Footer */
 #footer {
   color: #fff;
